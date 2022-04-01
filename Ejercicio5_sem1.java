@@ -3,21 +3,21 @@ public class Ejercicio5_sem1 {
     
     public static void main(String[] args) {
         
-  double SalarioT, Sueldo, Horas, SueldoH, HorasT, Renta, RentaT, Tiempo, TotalF;
+  double salarioT, sueldo, horas, sueldoH, horasT, renta, rentaT, tiempo, totalF;
 
-         Sueldo= 10;
-         Tiempo= 30;
-         Horas= 50;
-         SueldoH = 0.10;
-         Renta= 0.10;
+         sueldo= 10;
+         tiempo= 30;
+         horas= 50;
+         sueldoH = 0.10;
+         renta= 0.10;
          
-         SalarioT = Sueldo* Tiempo;
-         HorasT = Horas * SueldoH;
-         TotalF= SalarioT + HorasT;
-         RentaT= TotalF - Renta;
+         salarioT = sueldo* tiempo;
+         horasT = horas * sueldoH;
+         totalF= salarioT + horasT;
+         rentaT= totalF - renta;
       
 
-       System.out.println("Su Salario Total es:" + RentaT);
+       System.out.println("Su Salario Total es:" + rentaT);
 
     }
     
